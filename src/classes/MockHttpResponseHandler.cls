@@ -124,7 +124,6 @@ global class MockHttpResponseHandler implements HttpCalloutMock {
             }else{
                 return responses.remove(0).getResponse(req);
             }
-            return null;
         }
 
         public void addMockResponse(IMockResponse response){
